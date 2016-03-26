@@ -1,5 +1,7 @@
 # boildown
 
+http://mark.koli.ch/introducing-boildown
+
 Compress and decompress arbitrary network streams.
 
 Boildown listens on a local port, compresses (or decompresses) incoming traffic, and forwards the result to its destination.  It's like SSH port-forwarding, but the bidirectional network traffic flowing through Boildown is automatically compressed or decompressed, depending on how it's configured.  In essence, Boildown provides a compressed "pipe" connecting two nodes on a network.
